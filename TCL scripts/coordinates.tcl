@@ -9,4 +9,3 @@ set coords [$sel get {x y z}]
 
 # Print the coordinates
 puts $coords
-
