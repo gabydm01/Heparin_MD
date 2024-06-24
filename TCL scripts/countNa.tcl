@@ -1,6 +1,7 @@
 # 
 # Use with: vmd -dispdev text -e <nameofscript.tcl>
 # By Jordi Faraudo March 2017
+# Modified by Gabriel de Araújo 2024
 
 #
 # PROCEDURE 1: BIG DCD
@@ -78,7 +79,7 @@ proc bigdcd_wait { } {
 }
 
 #
-# Define procedure for computing adsorbed Na
+# Define procedure for computing adsorbed Na (modified from previous file for our purpose)
 #
 
 proc ion_adsorbed { frame } {
